@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawShadowFrameLayout">
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowVisible" format="boolean" />
+    </declare-styleable>
+
+    <integer-array name="style_book_color">
+        <item>@color/style_book_color_amber</item>
+        <item>@color/style_book_color_green</item>
+        <item>@color/style_book_color_blue</item>
+        <item>@color/style_book_color_gray</item>
+    </integer-array>
+
+    <integer-array name="style_book_fab_color">
+        <item>@color/style_book_fab_color_amber</item>
+        <item>@color/style_book_fab_color_green</item>
+        <item>@color/style_book_fab_color_blue</item>
+        <item>@color/style_book_fab_color_gray</item>
+    </integer-array>
+
+    <integer-array name="style_tag_color">
+        <item>@color/style_tag_color_amber</item>
+        <item>@color/style_tag_color_green</item>
+        <item>@color/style_tag_color_blue</item>
+        <item>@color/style_tag_color_gray</item>
+    </integer-array>
+
+    <declare-styleable name="BaseView">
+        <attr name="is_square" format="boolean" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="radius_size" format="integer" />
+        <attr name="shadow_size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpv_progress" format="float" />
+        <attr name="cpv_maxProgress" format="float" />
+        <attr name="cpv_animDuration" format="integer" />
+        <attr name="cpv_color" format="color" />
+        <attr name="cpv_thickness" format="dimension" />
+        <attr name="cpv_indeterminate" format="boolean" />
+        <attr name="cpv_animAutostart" format="boolean" />
+        <attr name="cpv_animSteps" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">阅读路线</string>
+    <string name="action_settings">设置</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="text_global_settings">设置</string>
+    <string name="text_font_size">字体大小</string>
+    <string name="text_small_font">小</string>
+    <string name="text_big_font">大</string>
+    <string name="text_reading_mode">夜读模式</string>
+    <string name="text_brightness">亮度</string>
+    <string name="text_brightness_dark">暗</string>
+    <string name="text_brightness_light">亮</string>
+    <string name="text_reading">阅读</string>
+    <string name="text_routines">安排</string>
+    <string name="text_note">笔记</string>
+    <string name="text_reading_routine">阅读路线</string>
+    <string name="text_main">首页</string>
+    <string name="text_null" />
+    <string name="title_activity_book">BookActivity</string>
+
+    <string name="text_book">添加书籍</string>
+    <string name="text_book_name">书名</string>
+    <string name="text_time_label">计划完成时间</string>
+    <string name="text_book_delete">删除</string>
+    <string name="text_book_save">保存</string>
+    <string name="text_global_logout">退出</string>
+    <string name="action_sign_up">注册</string>
+    <string name="time_setting_finish">完成</string>
+    <string name="error_invalid_bookname">书名无效</string>
+    <string name="text_refresh">同步</string>
+
+    <string name="title_activity_note_details">新建笔记</string>
+    <string name="text_note_title">标题</string>
+    <string name="text_note_compose">内容</string>
+    <string name="error_invalid_notecompose">内容无效</string>
+
+    <string name="empty_reading_title">没有文章</string>
+    <string name="empty_reading_hint">请使用工具栏最右边的按钮选择文章</string>
+    <string name="add_routine_already_exists">已存在该阅读计划</string>
+    <string name="add_routine_success">添加阅读计划成功</string>
+    <string name="add_routine_error">添加阅读计划失败</string>
+
+    <string name="empty_directory_hint">空文件夹</string>
+    <string name="type_directory">文件夹</string>
+    <string name="type_document">文稿</string>
+    <string name="type_certificate">证书</string>
+    <string name="type_drawing">图画</string>
+    <string name="type_excel">Excel</string>
+    <string name="type_image">图片</string>
+    <string name="type_music">音乐</string>
+    <string name="type_pdf">Pdf</string>
+    <string name="type_power_point">PPT</string>
+    <string name="type_word">Word</string>
+    <string name="type_archive">压缩包</string>
+    <string name="start_path_name">sdcard0</string>
+
+    <string name="text_about">关于</string>
+    <string name="text_version">V1.0 Beta</string>
+    <string name="text_app_new_version_update">版本更新</string>
+    <string name="text_app_already_the_latest_version">已是最新版本</string>
+    <string name="text_new_app_version">新版本</string>
+    <string name="text_app_introduction">功能介绍</string>
+    <string name="text_thanks">致谢</string>
+    <string name="text_app_about_me">关于我</string>
+    <string name="text_app_feedback">反馈</string>
+    <string name="text_feedback_hint">感谢您对阅读路线的使用与支持,请在这里写下您的宝贵意见,以便我们进行完善.</string>
+    <string name="error_invalid_feedback">您的意见为空,请写下您的宝贵意见</string>
+    <string name="error_repeated_feedback">请勿重复提交反馈</string>
+    <string name="msg_save_feedback_success">反馈信息已发送到服务器</string>
+    <string name="msg_save_feedback_fail">发送反馈信息失败：</string>
+    <string name="text_ok">确认</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_copyright">Copyright \@2015 agenthun</string>
+    <string name="text_introduction_title_routines">1.读书计划安排, 定时提醒</string>
+    <string name="text_introduction_content_routines">在生活中，人们对于购买的书籍，往往在刚购买几日时会有极高的兴趣阅读，后来因为种种原因，就丢弃在一边，以至于最后自己都忘了买过这本书。针对这种情况，我们决定开发一款移动端应用，来帮助人们管理购买的书籍，做到物尽其用，让书籍不再只是摆设。</string>
+    <string name="text_introduction_title_reading">2.阅读本地TXT电子书</string>
+    <string name="text_introduction_content_reading">加入电子书阅读器的功能，可与读书计划安排进行关联。</string>
+    <string name="text_introduction_title_notes">3.读书笔记</string>
+    <string name="text_introduction_content_notes">你可以添加读书笔记，进行好句记录，书评，读后感等。</string>
+    <string name="text_introduction_title_shopping">4.好书推荐, 源自豆瓣读书排名</string>
+    <string name="text_introduction_content_shopping">来自豆瓣读书排行榜。</string>
+    <string name="text_introduction_title_login_user">5.数据同步</string>
+    <string name="text_introduction_content_login_user">个人数据及时与云端同步</string>
+    <string name="error_invalid_network">网络出错</string>
+    <string name="error_404_network">404 出错啦!</string>
+
+    <string name="text_shopping">好书推荐</string>
+    <string name="action_search">搜索</string>
+    <string name="text_search_hint">搜索</string>
+    <string name="back">返回</string>
+    <string name="text_product_content">内容</string>
+    <string name="text_product_summary">书评</string>
+    <string name="text_author_null">不详</string>
+    <string name="text_publisher_null">出版社不详</string>
+    <string name="text_content_null">暂无</string>
+    <string name="text_notification_title">阅读提醒</string>
+
+</resources>

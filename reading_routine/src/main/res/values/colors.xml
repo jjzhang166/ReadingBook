@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#65dbd5</color>
+    <color name="colorPrimaryDark">#26a69a</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="background_daytime_material_blue">#65dbd5</color>
+    <!--80CBC4--><!--7ecec9  81dad2-->
+    <color name="background_night_material_blue">#05212d</color>
+
+    <color name="touch_effect">#9ccc</color>
+
+    <color name="text_color_green">#009688</color>
+    <color name="text_color_hint">#42000000</color>
+    <color name="text_dialog_color_subhead">#1a1a1a</color>
+
+    <color name="color_white">@color/bright_foreground_material_dark</color>
+    <color name="gray_100">#f5f5f5</color>
+    <color name="gray_200">#eeeeee</color>
+    <color name="gray_300">#e0e0e0</color>
+    <color name="gray_400">#bdbdbd</color>
+    <color name="gray_800">#424242</color>
+    <color name="teal_200">#80cbc4</color>
+    <color name="teal_300">#4db6ac</color>
+    <color name="teal_400">#26a69a</color>
+    <color name="teal_500">#009688</color>
+
+    <color name="fab_add_color_pressed">#1565C0</color>
+    <color name="fab_color_pressed">@color/bright_foreground_disabled_material_dark</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="delete_btn_press">#f75549</color>
+
+    <color name="style_book_color_amber">#ffc170</color>
+    <color name="style_book_color_green">#73c778</color>
+    <color name="style_book_color_blue">#5677fc</color>
+    <color name="style_book_color_gray">#757575</color>
+
+    <color name="style_book_fab_color_amber">#03A9F4</color>
+    <color name="style_book_fab_color_green">#795548</color>
+    <color name="style_book_fab_color_blue">#FF4081</color>
+    <color name="style_book_fab_color_gray">#536DFE</color>
+
+    <color name="style_tag_color_amber">#F0E093</color>
+    <color name="style_tag_color_green">#96BBB3</color>
+    <color name="style_tag_color_blue">#DFD576</color>
+    <color name="style_tag_color_gray">#A08880</color>
+
+    <!-- Note Details colors. -->
+    <color name="theme_divider">#ffb6b6b6</color>
+
+    <color name="theme_ripple_dark">#40ffffff</color>
+    <color name="theme_ripple_light">#40000000</color>
+    <color name="theme_ripple_mask_dark">#ff000000</color>
+    <color name="theme_ripple_mask_light">#ffffffff</color>
+    <color name="listItemPressedColor">#19000000</color>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_shortcut"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/quitReadingBtn"
+        style="@style/SelectableDarkBackgroundBorderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:contentDescription="@string/back"
+        android:padding="@dimen/margin_horizontal"
+        android:src="@drawable/ic_arrow_back_white_24dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?colorPrimary"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/layout_inner_shortcut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/decrease_font"
+                style="@style/SelectableDarkBackgroundBorderless"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_decrease_font" />
+
+            <ImageButton
+                android:id="@+id/increase_font"
+                style="@style/SelectableDarkBackgroundBorderless"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_increase_font" />
+
+            <ImageButton
+                android:id="@+id/reading_background"
+                style="@style/SelectableDarkBackgroundBorderless"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_reading_background" />
+
+            <ImageButton
+                android:id="@+id/marking"
+                style="@style/SelectableDarkBackgroundBorderless"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_marking" />
+
+            <!--            <ImageButton
+                            android:id="@+id/copy"
+                            style="@style/SelectableDarkBackgroundBorderless"
+                            android:layout_width="?actionBarSize"
+                            android:layout_height="?actionBarSize"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_copy" />-->
+
+            <ImageButton
+                android:id="@+id/reading_list"
+                style="@style/SelectableDarkBackgroundBorderless"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_reading_list" />
+
+            <ImageButton
+                android:id="@+id/reading_open"
+                style="@style/SelectableDarkBackgroundBorderless"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_reading_open" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

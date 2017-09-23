@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'agenthun'
+            keyPassword 'agenthun'
+            storeFile file('/Users/agenthun/Documents/AndroidStudioSave/hun_release.jks')
+            storePassword 'agenthun'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+    defaultConfig {
+        applicationId "com.agenthun.readingroutine"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName '1.0 Beta'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //bmob-sdk ：Bmob的android sdk包
+    compile 'cn.bmob.android:bmob-sdk:3.4.5'
+    //bmob-push：Bmob的推送包
+    compile 'cn.bmob.android:bmob-push:0.6'
+    //依赖注入
+    compile 'com.jakewharton:butterknife:5.1.1'
+    //material菜单效果
+    compile 'com.balysv.materialmenu:material-menu-toolbar:1.5.1'
+    //标签右滑删除效果
+    compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+    //登陆为空EditView抖动效果
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+    //选择日期的效果
+    compile 'com.prolificinteractive:material-calendarview:0.4.0'
+    compile 'com.android.support:support-annotations:23.0.1'
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+    compile 'com.android.support:cardview-v7:23.0.1'
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'com.android.support:palette-v7:23.0.1'
+    /*    compile 'com.facebook.fresco:fresco:0.8.1'*/
+    //图片加载
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    /*    compile 'com.google.code.gson:gson:2.2.4'*/
+    //异步HTTP加载
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    //JSON解析
+    compile 'org.jsoup:jsoup:1.8.3'
+}
